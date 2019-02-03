@@ -1,10 +1,11 @@
+
 from keras.models import Sequential
 from keras.layers.core import Dense, Dropout, Activation
 from keras.optimizers import SGD
 import numpy as np 
 
 X = np.array([[0,0],[0,1],[1,0],[1,1]])
-y = np.array([[0,0,0,1,0],[1,0,1,1,0],[1,0,1,0,1],[0,1,1,0,0]])
+y = np.array([[0,0,0,1,1],[1,0,1,1,0],[1,0,1,0,1],[0,1,1,0,0]])
 
 
 model = Sequential()
